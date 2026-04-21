@@ -1,0 +1,36 @@
+# -----------------------
+# Secrets and Credentials
+# -----------------------
+.env
+.env.*
+!.env.example
+serviceAccountKey.json
+
+# -----------------------
+# Python / Backend
+# -----------------------
+__pycache__/
+*.pyc
+.venv/
+backend/.venv/
+env/
+venv/
+pip-log.txt
+pytest_cache/
+.coverage
+mock_scan.png
+
+# -----------------------
+# Node / Frontend
+# -----------------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vscode/
+
+# -----------------------
+# OS generated files
+# -----------------------
+.DS_Store
+Thumbs.db
